@@ -12,7 +12,7 @@ import mail from "@/images/icn settings .icn-xl (2).png";
 import arrow from "@/images/Arrow 2.png";
 import Footer from "../components/footer";
 
-export default function () {
+export default function contact() {
   return (
     <div>
       {/* HERO FOR CONTACT */}
