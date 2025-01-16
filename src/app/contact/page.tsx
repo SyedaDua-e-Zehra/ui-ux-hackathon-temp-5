@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Navbar from "../components/navbar2";
 import Image from "next/image";
 import twitter from "@/images/logos_twitter (1).png";

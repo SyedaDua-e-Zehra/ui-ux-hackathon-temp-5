@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import fb from "@/images/facebook.png";
 import instagram from "@/images/ant-design_instagram-outlined.png";

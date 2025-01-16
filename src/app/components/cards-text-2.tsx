@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 export default function CardT2() {
     return(
         <div className="w-full h-full px-[25px] py-[25px] flex flex-col gap-[10px]">

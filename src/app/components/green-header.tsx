@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image"
 import phone from "@/images/icn settings icn-xs.png"
 import mail from "@/images/icn settings icn-xs (1).png";

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import couples from "@/images/asian-woman-man-with-winter-clothes 1.png";
 

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import greenman from "@/images/shop-hero-2-png-picture-1.png";
 

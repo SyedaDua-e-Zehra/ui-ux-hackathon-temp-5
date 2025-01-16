@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import post1 from "@/images/road.png";
 import post2 from "@/images/car.png";

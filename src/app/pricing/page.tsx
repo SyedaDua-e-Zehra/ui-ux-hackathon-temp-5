@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Navbar from "../components/navbar2";
 import Image from "next/image";
 import arrow from "@/images/Vector (13).png";

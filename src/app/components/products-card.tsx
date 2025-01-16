@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import picture1 from "@/images/bs1.png";
 import CardText from "./cards-text";
