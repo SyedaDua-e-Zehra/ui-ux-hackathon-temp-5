@@ -3,27 +3,28 @@ import Image from "next/image";
 import fb from "@/images/facebook.png";
 import instagram from "@/images/ant-design_instagram-outlined.png";
 import twitter from "@/images/ant-design_twitter-outlined.png"
+import Link from "next/link";
 export default function Footer() {
     return (
-        <footer className="bg-white relative flex flex-col py-10">
-    {/* Top Section */}
-    <section className="bg-[#ffffff] py-10">
-      <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row justify-between items-center">
-        <div className="flex flex-col">
-          <h1 className="text-[#252b42] text-2xl font-bold leading-loose tracking-tight">Bandage</h1>
-        </div>
-        <div className="flex gap-6 mt-6 lg:mt-0">
-          <Image src={fb} alt="fb" className="w-6 h-6 " />
-          <Image src={instagram} alt="insta" className="w-6 h-6 " />
-          <Image src={twitter} alt="twitter" className="w-6 h-6 " />
-        </div>
-      </div>
-    </section>
+        <footer className="bg-white relative flex flex-col py-10 px-4">
+            {/* Top Section */}
+            <section className="bg-[#ffffff] py-10">
+                <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row justify-between items-center">
+                    <div className="flex flex-col">
+                        <h1 className="text-[#252b42] text-2xl font-bold leading-loose tracking-tight">Bandage</h1>
+                    </div>
+                    <div className="flex gap-6 mt-6 lg:mt-0">
+                        <Link href="https://www.linkedin.com/in/syeda-dua-zehra-6067252b6/"><Image src={fb} alt="fb" className="w-6 h-6 " /></Link>
+                        <Link href="https://www.linkedin.com/in/syeda-dua-zehra-6067252b6/"><Image src={instagram} alt="insta" className="w-6 h-6 " /></Link>
+                        <Link href="https://www.linkedin.com/in/syeda-dua-zehra-6067252b6/"><Image src={twitter} alt="twitter" className="w-6 h-6 " /></Link>
+                    </div>
+                </div>
+            </section>
 
-  
+
             {/* Divider */}
             <div className="border-t border-[#e6e6e6]" />
-  
+
             {/* Main Footer Content */}
             <section className="bg-white py-12">
                 <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-12">
@@ -37,7 +38,7 @@ export default function Footer() {
                             <a href="#" className="text-[#727272] text-sm font-bold">Blog</a>
                         </nav>
                     </div>
-  
+
                     {/* Legal */}
                     <div>
                         <h2 className="text-[#252b42] text-base font-bold">Legal</h2>
@@ -48,7 +49,7 @@ export default function Footer() {
                             <a href="#" className="text-[#727272] text-sm font-bold">Refund Policy</a>
                         </nav>
                     </div>
-  
+
                     {/* Features */}
                     <div>
                         <h2 className="text-[#252b42] text-base font-bold">Features</h2>
@@ -59,7 +60,7 @@ export default function Footer() {
                             <a href="#" className="text-[#727272] text-sm font-bold">Unlimited Support</a>
                         </nav>
                     </div>
-  
+
                     {/* Resources */}
                     <div>
                         <h2 className="text-[#252b42] text-base font-bold">Resources</h2>
@@ -70,7 +71,7 @@ export default function Footer() {
                             <a href="#" className="text-[#727272] text-sm font-bold">API</a>
                         </nav>
                     </div>
-  
+
                     {/* Get in Touch */}
                     <div>
                         <h2 className="text-[#252b42] text-base font-bold">Get In Touch</h2>
@@ -90,16 +91,16 @@ export default function Footer() {
                     </div>
                 </div>
             </section>
-  
+
             {/* Bottom Section */}
             <section className="bg-[#FAFAFA] py-4">
                 <div className="max-w-screen-xl mx-auto flex justify-between items-center">
                     <p className="text-[#727272] text-sm font-bold">Made with love by @Syeda Dua e Zehra. All rights reserved.</p>
                     <div className="flex gap-4">
-                       
+
                     </div>
                 </div>
             </section>
         </footer>
     );
-  }
+}

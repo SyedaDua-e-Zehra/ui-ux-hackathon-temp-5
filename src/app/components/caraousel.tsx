@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import women from "@/images/hero1.jpg";
+import Link from "next/link";
 
 export default function Carousel() {
   return (
@@ -29,7 +30,7 @@ export default function Carousel() {
           We know how large objects will act, but things on a small scale.
         </h4>
         <button className="px-6 py-3 sm:px-8 sm:py-4 bg-[#2DC071] text-white text-sm sm:text-base lg:text-lg rounded-md font-Montserrat hover:bg-[#25a061] transition duration-300">
-          SHOP NOW
+         <Link href={`/shop`} >SHOP NOW</Link>
         </button>
       </div>
     </div>

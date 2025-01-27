@@ -6,6 +6,7 @@ import insta from "@/images/icn settings icn-xs (2).png";
 import yout from "@/images/icn settings icn-xs (3).png";
 import fb from "@/images/icn settings icn-xs (4).png";
 import twit from "@/images/icn settings icn-xs (5).png";
+import Link from "next/link";
 
 export default function BlueHeader() {
   return (
@@ -32,10 +33,10 @@ export default function BlueHeader() {
         <div className="flex gap-[10px] items-center">
           <h6 className="font-Montserrat text-[14px] text-white">Follow Us:</h6>
           <div className="flex gap-[10px]">
-            <Image src={insta} alt="Instagram" width={30} height={19} />
-            <Image src={yout} alt="YouTube" width={30} height={19} />
-            <Image src={fb} alt="Facebook" width={30} height={19} />
-            <Image src={twit} alt="Twitter" width={30} height={19} />
+            <Link href="https://www.linkedin.com/in/syeda-dua-zehra-6067252b6/"><Image src={insta} alt="Instagram" width={30} height={19} /></Link>
+            <Link href="https://www.linkedin.com/in/syeda-dua-zehra-6067252b6/"><Image src={yout} alt="YouTube" width={30} height={19} /></Link>
+            <Link href="https://www.linkedin.com/in/syeda-dua-zehra-6067252b6/"><Image src={fb} alt="Facebook" width={30} height={19} /></Link>
+            <Link href="https://www.linkedin.com/in/syeda-dua-zehra-6067252b6/"><Image src={twit} alt="Twitter" width={30} height={19} /></Link>
           </div>
         </div>
       </div>

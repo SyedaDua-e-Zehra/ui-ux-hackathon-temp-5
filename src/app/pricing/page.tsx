@@ -19,6 +19,7 @@ import facebookIcon from "@/images/facebook.png";
 import instagramIcon from "@/images/ant-design_instagram-outlined.png";
 import twittericon from "@/images/ant-design_twitter-outlined.png";
 import Footer from "../components/footer";
+import Link from "next/link";
 
 export default function Pricing() {
   return (
@@ -539,7 +540,7 @@ export default function Pricing() {
               </h6>
           <div className="flex flex-row items-center gap-[10px]">
             <div className="bg-[#23A6F0] text-white font-Montserrat font-bold text-[14px] leading-[22px] rounded-[5px] px-[40px] py-[15px]">
-            Try it free now
+            <Link href="/">Try it For Free Now</Link>
             </div>
           </div>
         </div>

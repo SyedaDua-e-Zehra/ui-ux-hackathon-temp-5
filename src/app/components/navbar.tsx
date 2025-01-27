@@ -32,10 +32,10 @@ export default function Navbar() {
 
         {/* Icons Section */}
         <div className="flex space-x-4 items-center">
-          <Image src={user} alt="user" width={16} height={16} />
-          <Image src={search} alt="search" width={40} height={20} />
-          <Image src={cart} alt="cart" width={45} height={20} />
-          <Image src={mail} alt="mail" width={45} height={20} />
+          <Link href={`/`}><Image src={user} alt="user" width={16} height={16} /></Link>
+         <Link href={`/`}> <Image src={search} alt="search" width={40} height={20} /></Link>
+         <Link href={`/cart`}> <Image src={cart} alt="cart" width={45} height={20} /></Link>
+         <Link href={`/reviews`}> <Image src={mail} alt="mail" width={45} height={20} /></Link>
         </div>
       </div>
 
