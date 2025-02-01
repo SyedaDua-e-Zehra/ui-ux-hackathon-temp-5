@@ -4,6 +4,7 @@ import Men from "@/images/filter.jpg";
 import women from "@/images/filter (1).png";
 import div1 from "@/images/filter (2).jpg";
 import div2 from "@/images/filter(3).jpg";
+import Link from "next/link";
 
 export default function Editors() {
   return (
@@ -27,9 +28,9 @@ export default function Editors() {
               alt="men"
               className="w-full h-full object-cover rounded-md"
             />
-            <button className="absolute bottom-[16px] left-1/2 transform -translate-x-1/2 bg-white px-[30px] sm:px-[50px] py-[8px] sm:py-[10px] shadow-md font-Montserrat font-bold text-[#252B42] text-[14px] sm:text-[16px] leading-[20px] sm:leading-[24px] hover:bg-gray-100">
+            <Link href={`/shop`}className="absolute bottom-[16px] left-1/2 transform -translate-x-1/2 bg-white px-[30px] sm:px-[50px] py-[8px] sm:py-[10px] shadow-md font-Montserrat font-bold text-[#252B42] text-[14px] sm:text-[16px] leading-[20px] sm:leading-[24px] hover:bg-gray-100">
               MEN
-            </button>
+            </Link>
           </div>
           {/* Women Image */}
           <div className="relative w-full lg:w-[240px] h-[500px] lg:h-[500px] mb-[20px] lg:mb-0">
@@ -38,11 +39,11 @@ export default function Editors() {
               alt="women"
               className="w-full h-full object-cover"
             />
-            <button className="absolute bottom-[16px] left-1/2 transform -translate-x-1/2 bg-white px-[30px] sm:px-[48px] py-[8px] sm:py-[12px] shadow-md">
+            <Link href={`/shop`} className="absolute bottom-[16px] left-1/2 transform -translate-x-1/2 bg-white px-[30px] sm:px-[48px] py-[8px] sm:py-[12px] shadow-md">
               <h2 className="font-Montserrat font-bold text-[14px] sm:text-[16px] leading-[20px] sm:leading-[24px] text-[#252B42]">
                 WOMEN
               </h2>
-            </button>
+            </Link>
           </div>
           {/* Accessories and Kids */}
           <div className="flex flex-col gap-[20px] w-full lg:w-[240px]">
@@ -53,11 +54,11 @@ export default function Editors() {
                 alt="accessories"
                 className="w-full h-full object-cover"
               />
-              <button className="absolute bottom-[16px] left-1/2 transform -translate-x-1/2 bg-white px-[20px] sm:px-[24px] py-[8px] sm:py-[12px] shadow-md">
+             <Link href={`/shop`} className="absolute bottom-[16px] left-1/2 transform -translate-x-1/2 bg-white px-[20px] sm:px-[24px] py-[8px] sm:py-[12px] shadow-md">
                 <h2 className="font-Montserrat font-bold text-[14px] sm:text-[16px] leading-[20px] sm:leading-[24px] text-[#252B42]">
                   ACCESSORIES
                 </h2>
-              </button>
+              </Link>
             </div>
             {/* Kids Image */}
             <div className="relative w-full h-[242px]">
@@ -66,11 +67,11 @@ export default function Editors() {
                 alt="kids"
                 className="w-full h-full object-cover"
               />
-              <button className="absolute bottom-[16px] left-1/2 transform -translate-x-1/2 bg-white px-[20px] sm:px-[24px] py-[8px] sm:py-[12px] shadow-md">
+              <Link href={`/shop`} className="absolute bottom-[16px] left-1/2 transform -translate-x-1/2 bg-white px-[20px] sm:px-[24px] py-[8px] sm:py-[12px] shadow-md">
                 <h2 className="font-Montserrat font-bold text-[14px] sm:text-[16px] leading-[20px] sm:leading-[24px] text-[#252B42]">
                   KIDS
                 </h2>
-              </button>
+              </Link>
             </div>
           </div>
         </div>
