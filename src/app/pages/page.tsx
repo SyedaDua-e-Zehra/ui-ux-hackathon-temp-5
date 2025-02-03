@@ -17,7 +17,8 @@ import p3 from "@/images/product-cover-5 (22).png";
 import p4 from "@/images/product-cover-5 (23).png";
 import p5 from "@/images/product-cover-5 (24).png";
 import p6 from "@/images/product-cover-5 (26).png";
-import Bestseller from "../components/bestseller";
+// import Bestseller from "../components/bestseller";
+import Front from "../components/front";
 import Footer from "../components/footer";
 
 export default function Pages() {
@@ -182,7 +183,7 @@ export default function Pages() {
 
       {/* ProductsCrads */}
       <div className="w-[1051px] h-[72px] flex absolute justify-around top-[900px] left-[193px] bottom-[70px]">
-        <span className="font-Montserrat font-semibold text-[14px] leading-[24px] flex justify-center text-[#737373]">
+        <span className="font-Montserrat font-extrabold text-[14px] leading-[24px] flex justify-center text-[#737373]">
           Description
         </span>
         <span className="font-Montserrat font-semibold text-[14px] leading-[24px] flex justify-center text-[#737373]">
@@ -283,7 +284,7 @@ export default function Pages() {
       </div>
 
       {/* cards */}
-      <Bestseller />
+      <Front />
       {/* footer */}
       <Footer />
     </div>

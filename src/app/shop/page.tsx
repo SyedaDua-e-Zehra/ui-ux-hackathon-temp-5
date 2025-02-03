@@ -27,6 +27,7 @@ import pic20 from "@/images/product-cover-5 (19).png";
 
 import CardText from "../components/cards-text";
 import Footer from "../components/footer";
+import Front from "../components/front";
 
 export default function shop () {
   return (
@@ -117,9 +118,10 @@ export default function shop () {
       <div className="relative mt-12">
         <Image src={clients} alt="clients" className="w-full" />
       </div>
-      {/* Product Cards */}
+      
       <div className="relative w-full px-4 py-12">
-        <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <Front />
+        {/* <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {[
             pic9,
             pic10,
@@ -152,7 +154,7 @@ export default function shop () {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
 
       {/* //Button */}
      {/* Pagination */}
@@ -167,7 +169,7 @@ export default function shop () {
             <div className="bg-blue-600 text-white py-2 px-3 border border-gray-300 shadow-md cursor-pointer">
               2
             </div>
-            <div className="bg-white text-blue-600 py-2 px-3 border border-gray-300 shadow-md cursor-pointer">
+            <div className="bg-white text-blue-600 py-2  px-3 border border-gray-300 shadow-md hover:to-blue-600 cursor-pointer">
               3
             </div>
             <div className="bg-white text-blue-600 py-2 px-4 border border-gray-300 rounded-r-md shadow-md cursor-pointer">
